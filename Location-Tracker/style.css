@@ -1,45 +1,101 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Gilroy";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
 }
 
-html,body {
-    height: 100%;
-    width: 100%;
-}
-
-#first {
-    color: rgb(73, 8, 239);
-    font-size: 5rem;
-    display: flex;
-    justify-self: center;
-    text-decoration: underline;
-}
 .main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(rgb(6, 12, 12) 50%, rgb(47, 0, 255) 50%);
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 3.1vw;
+  font-weight: 700;
+  color: white;
+  background-color: #c7dacb;
+  border: none;
+  color: black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#footer {
+    position: absolute;
+    font-family: "Courier New", Courier, monospace;
+    bottom: 0px;
     width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #040404;
+    font-size: 14px;
 }
 
-.main h1 {
-    font-size: 10rem;
-    user-select: none;
+#footer h2  {
+    font-size: 2vw;
+    color: #ffffff;
 }
 
-footer {
-    font-weight: 800;
-    font-size: 3rem;
-    display: flex;
-    justify-self: center;
+#footer h2 span {
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 2.5vw;
+    bottom: 0;  
 }
-#dil {
-    margin-left: 1rem;
-    
-    color: red;
-    font-size: 3rem;
-   
+
+/* Mobile Devices (max-width 600px) */
+@media screen and (max-width: 600px) {
+  .main {
+    background: linear-gradient(rgb(27, 2, 245) 50%, rgb(0, 0, 0) 50%);
+     transition:  5s ease;
+
+    font-size: 14vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  button {
+  
+  padding: 15px 20px;
+  font-size: 3.1vw;
+  font-weight: 700;
+  background-color: #c7dacb;
+  border: none;
+  color: black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#footer h2 span {
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 5vw;
+    bottom: 0;  
+}
+
+#footer h2  {
+    font-size: 4vw;
+    color: #000000;
+}
+
+#footer {
+    position: absolute;
+    font-family: "Courier New", Courier, monospace;
+    bottom: 0px;
+    width: 100vw;
+    text-align: center;
+    padding: 10px;
+    background-color: #a5a5a7;
+    font-size: 14px;
+}
 }
