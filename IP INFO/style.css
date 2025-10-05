@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+ #ipForm{
+    height: 200px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    background-image: url("https://images.unsplash.com/photo-1675352161828-c07170f1b114?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    overflow: hidden;
+}
+
+#ipForm input{
+    height: 40px;
+    width: 300px;
+    margin: 10px auto;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+
+#ipForm button{
+    height: 40px;
+    width: 100px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 4px;
+    background-color: #001dfc;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#ipForm button:hover{
+    transition: all 0.5s linear;
+    background-color: #0fe79f;
+    color: black;
+}
+
+#ipInfo{
+    margin-top: 30px;
+    text-align: center;
+}
