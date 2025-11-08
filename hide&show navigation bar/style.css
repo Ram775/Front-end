@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Cabin:ital,wght@0,400..700;1,400..700&family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=TASA+Explorer:wght@400..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  background-image: url("https://images.unsplash.com/photo-1758221943117-6e1f900b957a?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  
+}
+
+.main #nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5vw 2vw;
+}
+
+#nav h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#nav i {
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+#overlay {
+  height: 100%;
+  width: 25vw;
+  position: absolute;
+  background-color: #ffffff44;
+  top: 0;
+  right: -25vw;
+  backdrop-filter: blur(5px);
+}
+
+#overlay h3 {
+  margin-top: 3vw;
+  margin-left: 6vw;
+  font-size: 1.3vw;
+  margin-bottom: 5%;
+}
+#overlay i {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 1.5vw;
+  font-weight: 600;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  
+}
+
+#cursor{
+    height: 40px;
+    width: 40px;
+    background-color: rgba(34, 0, 255, 0.45);
+    border-radius: 50%;
+    backdrop-filter: blur(5px);
+}
+
